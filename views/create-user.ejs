@@ -1,1 +1,39 @@
-<h1>UwU</h1>
+<main class="contenedor contenedor-formularios">
+  <h1>Create User</h1>
+  <form action="/crear-cuenta" method="post" class="default-form">
+    <div class="campo">
+      <label for="email">E-mail</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="youremail@example.com"
+      />
+    </div>
+    <div class="campo">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Your name" />
+    </div>
+    <div class="campo">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Your password"
+      />
+    </div>
+    <div class="campo">
+      <label for="repeatPassword">Repeat password</label>
+      <input
+        type="password"
+        name="repeatPassword"
+        id="repeatPassword"
+        placeholder="Your password again"
+      />
+    </div>
+    <div class="campo enviar">
+      <input type="submit" class="btn btn-rosa" value="Register" />
+    </div>
+  </form>
+</main>
